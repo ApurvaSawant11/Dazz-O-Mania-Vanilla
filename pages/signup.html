@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>Login</title>
+    <title>Signup</title>
   </head>
   <body>
     <header class="header flex-row wrap">
@@ -42,28 +42,40 @@
 
     <main>
       <section class="form-container flex-row-center mt-2p5 mx-auto radius-4px">
-        <form class="login-form p-2 pt-0">
-          <h4 class="text-center text-uppercase p-1">Login</h4>
+        <form class="signup-form p-2">
+          <h4 class="text-center text-uppercase m-0 mb-2">Signup</h4>
+          <div class="flex-row form-name">
+            <div class="input-field mb-2">
+              <input class="input" type="text" required="" />
+              <span class="bar"></span>
+              <label class="placeholder">First Name</label>
+            </div>
+            <div class="input-field mb-2">
+              <input class="input" type="text" required="" />
+              <span class="bar"></span>
+              <label class="placeholder">Last Name</label>
+            </div>
+          </div>
+
           <div class="input-field mb-2">
             <input class="input" type="text" required="" />
             <span class="bar"></span>
             <label class="placeholder">Enter Email</label>
           </div>
-          <div class="input-field">
+          <div class="input-field mb-2">
             <input class="input" type="password" required="" />
             <span class="bar"></span>
             <label class="placeholder">Password</label>
           </div>
-          <a href="#" class="button-link secondary-text text-xs forgot-btn"
-            >Forgot Password?</a
-          >
-          <button class="button inverted-primary form-btn mt-2p5 mb-1">
-            Login as Guest
-          </button>
-          <button class="button primary form-btn mb-1">Login</button>
-          <p class="text-center">
-            New user? Create your account
-            <a class="secondary-text fw-700" href="/pages/signup.html">here</a>
+          <div class="input-field mb-2">
+            <input class="input" type="password" required="" />
+            <span class="bar"></span>
+            <label class="placeholder">Confirm Password</label>
+          </div>
+          <button class="button primary form-btn mt-0p5">Signup</button>
+          <p class="text-center mt-1">
+            Already have an account? Login
+            <a class="secondary-text fw-700" href="/pages/login.html">here</a>
           </p>
         </form>
       </section>
