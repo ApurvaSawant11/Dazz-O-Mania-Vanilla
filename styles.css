@@ -1,0 +1,9 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://dazzle-ui-components.netlify.app/components/components.css");
+
+:root {
+    --primary: #1a1c20;
+    --secondary: #cf7500;
+    --tertiary: #f0a500;
+    --gray: #f4f4f4;
+}
