@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>Dazz-O-Mania</title>
+    <title>Signup</title>
   </head>
   <body>
     <header class="header flex-row wrap">
@@ -41,49 +41,43 @@
     </header>
 
     <main>
-      <section class="section-intro flex-row-center border-bottom-1">
-        <div class="section-text pl-2">
-          <h2 class="mb-2">Answer fun questions and test your knowledge!</h2>
-          <a href="#explore" class="button primary explore-btn"
-            >Explore Quizzes</a
-          >
-        </div>
-        <img class="home-img img-responsive" src="/images/37561.jpg" />
-      </section>
-      <section id="explore" class="mt-2p5">
-        <h2 class="text-center">Quizzes</h2>
-        <div class="flex-row-center gap-2 mt-2">
-          <div class="card-vertical card-shadow flex-column-center text-center">
-            <img class="card-img-vertical" src="/images/question-mark-3.jpg" />
-            <div class="card-details p-1">
-              <div class="title">Anything Random!</div>
-              <p class="subtitle my-0p5">
-                Let's test your knowledge on random things!
-              </p>
+      <section class="form-container flex-row-center mt-2p5 mx-auto radius-4px">
+        <form class="signup-form p-2">
+          <h4 class="text-center text-uppercase m-0 mb-2">Signup</h4>
+          <div class="flex-row form-name">
+            <div class="input-field mb-2">
+              <input class="input" type="text" required="" />
+              <span class="bar"></span>
+              <label class="placeholder">First Name</label>
             </div>
-            <a
-              href="pages/rules.html"
-              class="button button-anchor border-radius-0 mt-0p5"
-              >Play Now</a
-            >
+            <div class="input-field mb-2">
+              <input class="input" type="text" required="" />
+              <span class="bar"></span>
+              <label class="placeholder">Last Name</label>
+            </div>
           </div>
 
-          <div class="card-vertical card-shadow flex-column-center text-center">
-            <img
-              class="card-img-vertical img-responsive"
-              src="/images/question-mark-2.jpg"
-            />
-            <div class="card-details p-1">
-              <div class="title">Who am I ?</div>
-              <p class="subtitle my-0p5">
-                You have to guess who is in the image.
-              </p>
-            </div>
-            <a href="pages/rules.html" class="button button-anchor mt-0p5"
-              >Play Now</a
-            >
+          <div class="input-field mb-2">
+            <input class="input" type="text" required="" />
+            <span class="bar"></span>
+            <label class="placeholder">Enter Email</label>
           </div>
-        </div>
+          <div class="input-field mb-2">
+            <input class="input" type="password" required="" />
+            <span class="bar"></span>
+            <label class="placeholder">Password</label>
+          </div>
+          <div class="input-field mb-2">
+            <input class="input" type="password" required="" />
+            <span class="bar"></span>
+            <label class="placeholder">Confirm Password</label>
+          </div>
+          <button class="button primary form-btn mt-0p5">Signup</button>
+          <p class="text-center mt-1">
+            Already have an account? Login
+            <a class="secondary-text fw-700" href="/pages/login.html">here</a>
+          </p>
+        </form>
       </section>
     </main>
 
